@@ -3,7 +3,14 @@
 import { useActionState } from 'react';
 
 // React 19のServer Actions機能
-async function submitMessage(prevState: any, formData: FormData) {
+interface FormState {
+  success: boolean;
+  message?: string;
+  error?: string;
+  timestamp?: string;
+}
+
+async function submitMessage(prevState: FormState, formData: FormData): Promise<FormState> {
   const message = formData.get('message') as string;
   
   // 疑似的な処理時間

@@ -11,7 +11,12 @@ const Navigation = () => {
   const navItems = [
     { href: '/', label: 'ホーム', icon: '🏠' },
     { href: '/actions-demo', label: 'React 19 Actions', icon: '⚡' },
-    { href: '/turbopack-demo', label: 'Turbopack デモ', icon: '🚀' }
+    { href: '/turbopack-demo', label: 'Turbopack デモ', icon: '🚀' },
+    { href: '/shadcn-demo', label: 'shadcn/ui', icon: '🎨' },
+    { href: '/headless-demo', label: 'Headless UI', icon: '🔧' },
+    { href: '/mantine-demo', label: 'Mantine', icon: '💎' },
+    { href: '/chakra-demo', label: 'Chakra UI', icon: '🌟' },
+    { href: '/comparison', label: '比較', icon: '📊' }
   ];
 
   const isActive = (path: string) => pathname === path;

@@ -60,3 +60,48 @@
  GET /favicon.ico?favicon.45db1c09.ico 200 in 264ms
  GET /turbopack-demo 200 in 346ms
  GET /favicon.ico?favicon.45db1c09.ico 200 in 263ms
+Error: Can't resolve 'tw-animate-css' in '/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app'
+    [2m[at finishWithoutResolve (/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/Resolver.js:564:18)][0m
+    [2m[at /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/Resolver.js:656:15][0m
+    [2m[at /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/Resolver.js:718:5][0m
+    [2m[at eval (eval at create (/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)][0m
+    [2m[at /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/Resolver.js:718:5][0m
+    [2m[at eval (eval at create (/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:27:1)][0m
+    [2m[at /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/DescriptionFilePlugin.js:89:43][0m
+    [2m[at /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/Resolver.js:718:5][0m
+    [2m[at eval (eval at create (/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/tapable/lib/HookCodeFactory.js:33:10), <anonymous>:15:1)][0m
+    [2m[at /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/enhanced-resolve/lib/Resolver.js:718:5][0m {
+  details: "resolve 'tw-animate-css' in '/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app'\n" +
+    '  Parsed request is a module\n' +
+    '  using description file: /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/package.json (relative path: ./src/app)\n' +
+    '    resolve as module\n' +
+    "      /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/node_modules doesn't exist or is not a directory\n" +
+    "      /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/node_modules doesn't exist or is not a directory\n" +
+    '      looking for modules in /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules\n' +
+    '        single file module\n' +
+    '          using description file: /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/package.json (relative path: ./node_modules/tw-animate-css)\n' +
+    '            no extension\n' +
+    "              /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/tw-animate-css doesn't exist\n" +
+    '            .css\n' +
+    "              /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/tw-animate-css.css doesn't exist\n" +
+    "        /home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/node_modules/tw-animate-css doesn't exist\n" +
+    "      /home/terrauser/github/tkoba0330/claude_code_tutorial/node_modules doesn't exist or is not a directory\n" +
+    "      /home/terrauser/github/tkoba0330/node_modules doesn't exist or is not a directory\n" +
+    "      /home/terrauser/github/node_modules doesn't exist or is not a directory\n" +
+    "      /home/terrauser/node_modules doesn't exist or is not a directory\n" +
+    "      /home/node_modules doesn't exist or is not a directory\n" +
+    "      /node_modules doesn't exist or is not a directory"
+}
+ ✓ Compiled in 196ms
+ GET /turbopack-demo 200 in 390ms
+ GET /turbopack-demo 200 in 198ms
+ GET /turbopack-demo 200 in 234ms
+ GET /turbopack-demo 200 in 125ms
+ GET /turbopack-demo 200 in 245ms
+ GET /turbopack-demo 200 in 138ms
+ GET /turbopack-demo 200 in 244ms
+ GET /turbopack-demo 200 in 113ms
+ GET /turbopack-demo 200 in 453ms
+ GET /turbopack-demo 200 in 180ms
+ ✓ Compiled in 118ms
+[?25h
