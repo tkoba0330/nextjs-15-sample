@@ -1,0 +1,67 @@
+2025-06-19T00:58:41.757100Z  INFO tailwindcss_oxide::scanner: Provided sources:
+2025-06-19T00:58:41.760815Z  INFO tailwindcss_oxide::scanner: Source: PublicSourceEntry { base: "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample", pattern: "**/*", negated: false }
+2025-06-19T00:58:41.761296Z  INFO tailwindcss_oxide::scanner: Optimized sources:
+2025-06-19T00:58:41.761340Z  INFO tailwindcss_oxide::scanner: Source: Auto { base: "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample" }
+2025-06-19T00:58:41.765649Z  INFO scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.767383Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/next.config.ts"
+2025-06-19T00:58:41.767714Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/package.json"
+2025-06-19T00:58:41.767877Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/eslint.config.mjs"
+2025-06-19T00:58:41.767938Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src"
+2025-06-19T00:58:41.768122Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app"
+2025-06-19T00:58:41.768257Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/layout.tsx"
+2025-06-19T00:58:41.768357Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/globals.css"
+2025-06-19T00:58:41.768479Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/page.tsx"
+2025-06-19T00:58:41.768567Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public"
+2025-06-19T00:58:41.768730Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/file.svg"
+2025-06-19T00:58:41.768819Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/window.svg"
+2025-06-19T00:58:41.768942Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/next.svg"
+2025-06-19T00:58:41.768993Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/vercel.svg"
+2025-06-19T00:58:41.769079Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/globe.svg"
+2025-06-19T00:58:41.769306Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/postcss.config.mjs"
+2025-06-19T00:58:41.769426Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/README.md"
+2025-06-19T00:58:41.769555Z  INFO scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/tsconfig.json"
+2025-06-19T00:58:41.769728Z  INFO scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.769789Z  INFO extract_candidates: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.769809Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.769822Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 13 file(s)
+2025-06-19T00:58:41.776748Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/next.config.ts"
+2025-06-19T00:58:41.776960Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/layout.tsx"
+2025-06-19T00:58:41.777064Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/globe.svg"
+2025-06-19T00:58:41.777145Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/file.svg"
+2025-06-19T00:58:41.777180Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/page.tsx"
+2025-06-19T00:58:41.777161Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/vercel.svg"
+2025-06-19T00:58:41.777259Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/tsconfig.json"
+2025-06-19T00:58:41.777196Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/README.md"
+2025-06-19T00:58:41.777215Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/postcss.config.mjs"
+2025-06-19T00:58:41.777334Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/next.svg"
+2025-06-19T00:58:41.776884Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public/window.svg"
+2025-06-19T00:58:41.778018Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/eslint.config.mjs"
+2025-06-19T00:58:41.778719Z  INFO tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/package.json"
+2025-06-19T00:58:41.779387Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.779652Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.779715Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.782716Z  INFO extract_candidates:parse_all_blobs:extract: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.782901Z  INFO extract_candidates:parse_all_blobs: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.782928Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.782965Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading 1 file(s)
+2025-06-19T00:58:41.783028Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: Reading "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app/globals.css"
+2025-06-19T00:58:41.783097Z  INFO extract_candidates:read_all_files: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.783124Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.783146Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.784806Z  INFO extract_candidates:extract_css_variables:extract: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.785027Z  INFO extract_candidates:extract_css_variables: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.793335Z  INFO extract_candidates: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.794364Z  INFO get_files: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.794771Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.796315Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src"
+2025-06-19T00:58:41.796617Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app"
+2025-06-19T00:58:41.796835Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public"
+2025-06-19T00:58:41.797446Z  INFO get_files:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.799808Z  INFO get_files: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.800300Z  INFO get_globs: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.800490Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: enter
+2025-06-19T00:58:41.801577Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src"
+2025-06-19T00:58:41.801882Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/src/app"
+2025-06-19T00:58:41.802125Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: Discovering "/home/terrauser/github/tkoba0330/claude_code_tutorial/nextjs-15-sample/public"
+2025-06-19T00:58:41.802564Z  INFO get_globs:scan_sources: tailwindcss_oxide::scanner: exit
+2025-06-19T00:58:41.805092Z  INFO get_globs: tailwindcss_oxide::scanner: exit

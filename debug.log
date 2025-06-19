@@ -1,0 +1,62 @@
+
+> nextjs-15-sample@0.1.0 dev
+> next dev --turbopack
+
+   ▲ Next.js 15.3.4 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://10.255.255.254:3000
+
+ ✓ Starting...
+ ✓ Ready in 1348ms
+ ○ Compiling / ...
+ ✓ Compiled / in 3.2s
+ GET / 200 in 3632ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 890ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 1161ms
+ ✓ Compiled in 134ms
+ ✓ Compiled / in 115ms
+ GET / 200 in 693ms
+ ✓ Compiled in 133ms
+ GET / 200 in 322ms
+ GET / 200 in 164ms
+ ✓ Compiled in 72ms
+ GET / 200 in 282ms
+ ✓ Compiled in 109ms
+ ✓ Compiled in 95ms
+ ✓ Compiled in 101ms
+ GET / 200 in 207ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 296ms
+ ✓ Compiled in 191ms
+ ✓ Compiled / in 51ms
+ GET / 200 in 350ms
+ ○ Compiling /actions-demo ...
+ ✓ Compiled /actions-demo in 1300ms
+ GET /actions-demo 200 in 1408ms
+ ✓ Compiled in 108ms
+ ✓ Compiled in 160ms
+ ✓ Compiled /actions-demo in 38ms
+ GET /actions-demo 200 in 208ms
+ GET /actions-demo 200 in 92ms
+ ✓ Compiled /actions-demo in 29ms
+ GET /actions-demo 200 in 168ms
+ GET /actions-demo 200 in 94ms
+ ✓ Compiled /actions-demo in 52ms
+ GET /actions-demo 200 in 609ms
+ GET /actions-demo 200 in 364ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 285ms
+ ✓ Compiled / in 36ms
+ GET / 200 in 306ms
+ ○ Compiling /turbopack-demo ...
+ ✓ Compiled /turbopack-demo in 2.4s
+ GET /turbopack-demo 200 in 2539ms
+ GET /turbopack-demo 200 in 375ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 279ms
+ GET /turbopack-demo 200 in 196ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 256ms
+ GET /turbopack-demo 200 in 143ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 259ms
+ GET /turbopack-demo 200 in 144ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 264ms
+ GET /turbopack-demo 200 in 346ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 263ms
